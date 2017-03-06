@@ -15,3 +15,12 @@ window.onclick = function(event) {
 		}
 	}
 }
+
+var mostarOcultar = function mostarOcultar() {
+	var text2 = document.getElementById(text2);
+	if (text2.style.display == "block" ) {
+		text2.style.display = "none";
+	} else{
+		text2.style.display = "block";
+	}
+}
